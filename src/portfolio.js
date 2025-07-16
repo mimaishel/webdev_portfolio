@@ -33,7 +33,7 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
+    github: "https://github.com/mimaishel",
     linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
     medium: "https://medium.com/@mimaishel",
     stackoverflow: "",
@@ -134,12 +134,12 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/webdev_portfolio"
+                url: "https://github.com/mimaishel/webdev_portfolio"
             },
             {
                 label: "",
                 type: "external",
-                url: "https://feifykike.github.io/webdev_portfolio"
+                url: "https://maxshelepov.com"
             }
         ],
         imageLink: "images/webdevportfolio_pic.png",
@@ -154,7 +154,7 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+                url: "https://github.com/mimaishel/TrackYourSubsDemo/"
             },
             {
                 label: "",
@@ -189,7 +189,7 @@ const works = [
     //         {
     //             label: "",
     //             type: "git",
-    //             url: "https://github.com/feifyKike/sudokusolver"
+    //             url: "https://github.com/mimaishel/sudokusolver"
     //         },
     //         {
     //             label: "",
@@ -209,7 +209,7 @@ const works = [
     //         {
     //             label: "",
     //             type: "git",
-    //             url: "https://github.com/feifyKike/JS-API-Quiz"
+    //             url: "https://github.com/mimaishel/JS-API-Quiz"
     //         },
     //         {
     //             label: "",
@@ -234,7 +234,7 @@ const works = [
     //         {
     //             label: "",
     //             type: "external",
-    //             url: "https://github.com/feifyKike/Covid-Cases-Visual"
+    //             url: "https://github.com/mimaishel/Covid-Cases-Visual"
     //         }
     //     ],
     //     imageLink: "images/covid_pic.png",
@@ -242,7 +242,7 @@ const works = [
     // }
 ]
 
-const archiveLink = "https://github.com/feifyKike?tab=repositories"
+const archiveLink = "https://github.com/mimaishel?tab=repositories"
 
 // --- 📭 Contact Section ---
 // 2 Options available - Choose 1
