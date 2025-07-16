@@ -48,8 +48,8 @@
 						<ContactView :content="portfolio.contact" :transitions="portfolio.transitions" />
 
 						<footer class="hidden text-center md:block mb-5">
-							<p>🚀 Designed & Created by <a href="https://github.com/feifyKike" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-							<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+							<p>🚀 Designed & Created by <a href="https://github.com/mimaishel" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
+							<a href="https://github.com/mimaishel/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
 						</footer>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 				</div>
 				<footer class="block text-center text-sm md:hidden order-last mb-5">
 					<p>🚀 Designed & Created by <a href="https://maximshelepov.com" class="hover:text-link-color" target="_blank">Maxim Shelepov</a></p>
-					<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+					<a href="https://github.com/mimaishel/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
 				</footer>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-# 💻 Web Developer Portfolio ![Last Commit](https://img.shields.io/github/last-commit/feifykike/webdev_portfolio?color=blueviolet) ![Commit Activity](https://img.shields.io/github/commit-activity/m/feifykike/webdev_portfolio?color=blueviolet) [![License](https://img.shields.io/github/license/feifykike/webdev_portfolio?color=blueviolet)](https://github.com/feifyKike/webdev_portfolio/blob/main/LICENSE)
+# 💻 Web Developer Portfolio [![Build and Deploy](https://github.com/mimaishel/webdev_portfolio/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/mimaishel/webdev_portfolio/actions/workflows/deploy.yml) [![License](https://img.shields.io/github/license/mimaishel/webdev_portfolio?color=blueviolet)](https://github.com/mimaishel/webdev_portfolio/blob/main/LICENSE)
 
 ## A modern, clean, & simple to navigate portfolio template for web developers (or any developer)!
 
@@ -13,9 +13,9 @@ To add your own info into the template just alter the [src/portfolio.js](src/por
 
 If you have any suggestions on what else you want to be customized through the [portfolio.js](src/portfolio.js) file or added / changed in general please feel free to reach out through the hosted page [contact form](https://forms.gle/vhWrKD32i1d2MSZGA) or leave an issue.
 
-If you would like to contribute to the project take a look at the [Issues](https://github.com/feifyKike/webdev_portfolio/issues).
+If you would like to contribute to the project take a look at the [Issues](https://github.com/mimaishel/webdev_portfolio/issues).
 
-Want to add a personal touch to the portfolio? Feel free to open a [pull request](https://github.com/feifyKike/webdev_portfolio/pulls).
+Want to add a personal touch to the portfolio? Feel free to open a [pull request](https://github.com/mimaishel/webdev_portfolio/pulls).
 
 🙏 I would greatly appreciate proper credit if you do decided to use this portfolio for any of your purposes. Just leaving the footer as is at the bottom of the template **Designed & Created by Maxim Shelepov** would be enough. Thanks.
 
@@ -31,14 +31,14 @@ Want to add a personal touch to the portfolio? Feel free to open a [pull request
 - [Future](#future)
 - [License](#license)
 
-Check out the [live demo](https://feifykike.github.io/webdev_portfolio/) of the project.
+Check out the [live demo](https://mimaishel.github.io/webdev_portfolio/) of the project.
 
 ## Getting Started
 
 These instructions will help you get the project up and running on your local machine for your development, testing, & eventual deployment.
 
 ### Fork the repository (that's it really)
-To keep your changes and version of the portfolio under your github and actions [fork this repository](https://github.com/feifyKike/webdev_portfolio/fork). More on forking repositories [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+To keep your changes and version of the portfolio under your github and actions [fork this repository](https://github.com/mimaishel/webdev_portfolio/fork). More on forking repositories [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 After creating your fork, you can make all content ([src/portfolio.js](src/portfolio.js)) updates and commits in github without cloning on your machine for local development. To run the deployment of your portfolio site make your first change to and commit (that will trigger the workflow and pages site deployment).
 
@@ -85,7 +85,7 @@ git push # automatically points to the origin url / target specified in `git rem
 ```
 Syncing changes between your forked repository and this repository:
 ```sh
-git remote add upstream https://github.com/feifykike/webdev_portfolio.git # set a remote url to point to original repository (this one)
+git remote add upstream https://github.com/mimaishel/webdev_portfolio.git # set a remote url to point to original repository (this one)
 git remote -v # shows the set remotes
 
 # When you want to sync new changes/updates from the original repository
@@ -136,7 +136,7 @@ The github workflow [deploy.yml](.github/workflows/deploy.yml) file should autom
 - [Tailwind.css](https://tailwindcss.com)
 
 ## Images and Icons
-The images in the [src/assets/images/](https://github.com/feifyKike/webdev_portfolio/tree/main/src/assets/images) project folder are meant to serve as placeholders for your own images. Please intend to replace them with your own image assets.
+The images in the [src/assets/images/](https://github.com/mimaishel/webdev_portfolio/tree/main/src/assets/images) project folder are meant to serve as placeholders for your own images. Please intend to replace them with your own image assets.
 
 The project comes pre-equipped with:
 - [heroicons](https://heroicons.com) - Offer nice general-purpose icons. 2 icons used in the menu dropdown and 3 icons for project links.
@@ -170,13 +170,13 @@ Hope to continue improving the site, as well as adding more components and layou
 - [ ] Add more layout components to `src/components`.
 - [ ] More color scheme styling options in `src/portfolio.js`.
 
-💡 Leave your own ideas in the [issues](https://github.com/feifyKike/webdev_portfolio/issues) section or complete my [contact form](https://forms.gle/vhWrKD32i1d2MSZGA).
+💡 Leave your own ideas in the [issues](https://github.com/mimaishel/webdev_portfolio/issues) section or complete my [contact form](https://forms.gle/vhWrKD32i1d2MSZGA).
 
-🛠️ Again if you would like to contribute feel free to open a [pull request](https://github.com/feifyKike/webdev_portfolio/pulls).
+🛠️ Again if you would like to contribute feel free to open a [pull request](https://github.com/mimaishel/webdev_portfolio/pulls).
 
 🏎️ The project was initially designed in Figma. Check out the [Figma Design here](https://www.figma.com/file/GV3bfT7q5lxLnQFBj8VWra/Web-Dev-Portfolio-2.0).
 
 ## License
-The project is licensed under the MIT license. Check out the [LICENSE.md](https://github.com/feifyKike/webdev_portfolio/blob/main/LICENSE) file for more details.
+The project is licensed under the MIT license. Check out the [LICENSE.md](https://github.com/mimaishel/webdev_portfolio/blob/main/LICENSE) file for more details.
 
 📖 In short, it's open sourced and free to use for your own purposes. However there are some quirks, so please check out the [Images and Icons](#images-and-icons) section.
