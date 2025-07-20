@@ -23,7 +23,7 @@ const greeting = {
     intro: "Hello 👋, my name is",
     name: "Maxim Shelepov",
     // og: "I'm a computer science senior with hefty experience in app development. Previously worked as a web developer at my university, where I built tools to support both students and educators. Currently, I'm developing an educational AI tool aimed at redefining how college students interact with AI.",
-    message: "Previously a computer science senior, a web developer for my university, a founder of an AI tool for college students. Now working at IBM as a software developer.",
+    message: "Previously a computer science senior, a web developer for my university, and founder of an AI tool for college students. Now working at IBM as a software developer.",
     basedLocation: "Austin, TX (USA)",
     resumeLink: "https://drive.google.com/file/d/1BEiPuAOCQPWc1RVN5Bn_7KyxhR0HL_bv/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
@@ -84,6 +84,33 @@ const experiences = [
         ]
     },
     {
+        position: "Founder & Software Developer",
+        company: {
+            name: "EduVaultAI",
+            link: "https://blog.eduvaultai.com"
+        },
+        duration: "July 2024 - April 2025",
+        bulletPoints: [
+            "Engineered a high-performance RESTful API backend with FastAPI, supporting a student dashboard and file management system for 5,000+ concurrent users, with files hosted on AWS S3.",
+            "Containerized MariaDB, ChromaDB, and Llama model instances using Docker, enabling scalable and maintainable backend infrastructure.",
+            "Automated test data generation using Python, creating 60,000 records/files in 4 min to streamline testing.",
+            "Architected a scalable backend infrastructure capable of 2x future workloads with minimal code refactoring.",
+            "Developed responsive UI components in Vue.js and Tailwind.css, reducing backend load by optimizing API calls.",
+            "Led an Agile (Kanban) team creating milestone-based roadmaps and schedule, engaging in bug reporting, code reviews, maintaining documentation.",
+            "Estimated compute and hosting costs, gathering user analytics to scale platform accordingly."
+        ],
+        hashtags: [
+            "JavaScript",
+            "TypeScript",
+            "React.js",
+            "Vue.js",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Sass",
+        ]
+    },
+    {
         position: "Web Dev Intern",
         company: {
             name: "WolfTech",
@@ -91,9 +118,17 @@ const experiences = [
         },
         duration: "Aug 2022 - Aug 2024",
         bulletPoints: [
-            "Supported the development and maintenance of university web applications over two years, improving user experience and developer efficiency using PHP, Laravel, SQL, Docker, and Vue.js.",
-            "Made 350+ contributions to code repositories, including developing tools for email automation, research discovery, and AI-driven news sharing, which reduced operational time and led to higher user adoption.",
-            "Laid the groundwork for the modernized campus digital signage system and management application which supports 360 digital signs and 50 different organizations on campus."
+            "Williamboard Project - Solo Full-Stack Developer 					   	   May 2023 - July 2024",
+            "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
+            "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
+            "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
+            "Configured WebSocket's API to collect screen data and display analytics on user-facing dashboards.",
+            "Automated data migration of 15,000 records to new database structure in under 5 min using custom scripts.",
+            "Other Contributions									   	   Aug 2022 - May 2023",
+            "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
+            "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
+            "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
+            "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
         ],
         hashtags: [
             "Laravel",
@@ -139,8 +174,23 @@ const works = [
                 url: "https://github.com/mimaishel/tiny-react-toolbox"
             },
         ],
-        imageLink: "images/dashboard_pic.png",
+        imageLink: "images/las_dashboard_pic.png",
         alignLeft: false
+    },
+    {
+        projectName: "EduVaultAI",
+        yearCompleted: "2024",
+        description: "Lead the backend and frontend development of a smart study tool transforming course notes into personalized practice exams and study guides.",
+        techStack: "Vue.js, JS, HTML, Tailwind.css, FastAPI, Python, MariaDB, Docker, Llama.ai",
+        links: [
+            {
+                label: "",
+                type: "external",
+                url: "https://blog.eduvaultai.com"
+            }
+        ],
+        imageLink: "images/eduvaultai_dash_pic.png",
+        alignLeft: true
     },
     {
         projectName: "Open-Source Developer Portfolio",
@@ -160,7 +210,7 @@ const works = [
             }
         ],
         imageLink: "images/webdevportfolio_pic.png",
-        alignLeft: true
+        alignLeft: false
     },
     // {
     //     projectName: "TrackYourSubs IOS App",
