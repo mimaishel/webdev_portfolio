@@ -20,17 +20,17 @@ const splashScreen = true // recommended: for best behavior after refresh
 
 // --- 👋 Greeting Section ---
 const greeting = {
-    intro: "Hello 👋, my name is",
-    name: "Maxim Shelepov",
+    intro: "💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐",
+    name: "Люблю тебя жёнушка моя 💛.",
     // og: "I'm a computer science senior with hefty experience in app development. Previously worked as a web developer at my university, where I built tools to support both students and educators. Currently, I'm developing an educational AI tool aimed at redefining how college students interact with AI.",
-    message: "Previously a computer science senior, a web developer for my university, and founder of an AI tool for college students. Now working at IBM as a software developer.",
+    message: "💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐💐",
     basedLocation: "Austin, TX (USA)",
     resumeLink: "https://drive.google.com/file/d/1BEiPuAOCQPWc1RVN5Bn_7KyxhR0HL_bv/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: 'images/recentportrait.png'
+    portraitLink: 'images/flowers.jpeg'
 }
 
 const socialMediaLinks = {
