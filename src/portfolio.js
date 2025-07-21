@@ -69,8 +69,13 @@ const experiences = [
             link: "https://ibm-zcouncil.com/venues/ibm-office-austin-tx/"
         },
         duration: "May 2025 - Present",
-        bulletPoints: [
-            "Building next-generation AI products and enterprise software solutions.",
+        content: [
+            {
+                sectionHeader: "",
+                bulletPoints: [
+                    "Building next-generation AI products and enterprise software solutions.",
+                ]
+            }
         ],
         hashtags: [
             "JavaScript",
@@ -90,14 +95,19 @@ const experiences = [
             link: "https://blog.eduvaultai.com"
         },
         duration: "July 2024 - April 2025",
-        bulletPoints: [
-            "Engineered a high-performance RESTful API backend with FastAPI, supporting a student dashboard and file management system for 5,000+ concurrent users, with files hosted on AWS S3.",
-            "Containerized MariaDB, ChromaDB, and Llama model instances using Docker, enabling scalable and maintainable backend infrastructure.",
-            "Automated test data generation using Python, creating 60,000 records/files in 4 min to streamline testing.",
-            "Architected a scalable backend infrastructure capable of 2x future workloads with minimal code refactoring.",
-            "Developed responsive UI components in Vue.js and Tailwind.css, reducing backend load by optimizing API calls.",
-            "Led an Agile (Kanban) team creating milestone-based roadmaps and schedule, engaging in bug reporting, code reviews, maintaining documentation.",
-            "Estimated compute and hosting costs, gathering user analytics to scale platform accordingly."
+        content: [
+            {
+                sectionHeader: "",
+                bulletPoints: [
+                    "Engineered a high-performance RESTful API backend with FastAPI, supporting a student dashboard and file management system for 5,000+ concurrent users, with files hosted on AWS S3.",
+                    "Containerized MariaDB, ChromaDB, and Llama model instances using Docker, enabling scalable and maintainable backend infrastructure.",
+                    "Automated test data generation using Python, creating 60,000 records/files in 4 min to streamline testing.",
+                    "Architected a scalable backend infrastructure capable of 2x future workloads with minimal code refactoring.",
+                    "Developed responsive UI components in Vue.js and Tailwind.css, reducing backend load by optimizing API calls.",
+                    "Led an Agile (Kanban) team creating milestone-based roadmaps and schedule, engaging in bug reporting, code reviews, maintaining documentation.",
+                    "Estimated compute and hosting costs, gathering user analytics to scale platform accordingly."
+                ]
+            }
         ],
         hashtags: [
             "JavaScript",
@@ -117,18 +127,35 @@ const experiences = [
             link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
         },
         duration: "Aug 2022 - Aug 2024",
-        bulletPoints: [
-            "Williamboard Project - Solo Full-Stack Developer 					   	   May 2023 - July 2024",
-            "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
-            "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
-            "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
-            "Configured WebSocket's API to collect screen data and display analytics on user-facing dashboards.",
-            "Automated data migration of 15,000 records to new database structure in under 5 min using custom scripts.",
-            "Other Contributions									   	   Aug 2022 - May 2023",
-            "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
-            "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
-            "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
-            "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
+        content: [
+            {
+                sectionHeader: ["Williamboard Project - Solo Full-Stack Developer", "May 2023 - July 2024"],
+                bulletPoints: [
+                    "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
+                    "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
+                    "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
+                    "Configured WebSocket's API to collect screen data and display analytics on user-facing dashboards.",
+                    "Automated data migration of 15,000 records to new database structure in under 5 min using custom scripts.",
+                ]
+            },
+            {
+                sectionHeader: ["Other Contributions", "Aug 2022 - May 2023"],
+                bulletPoints: [
+                    "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
+                    "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
+                    "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
+                    "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
+                ]
+            },
+            // "Laid the groundwork for a multi-tenant modern digital sign management system for 360 screens across 50 campus organizations using Laravel, Vue.js, and Inertia.js.",
+            // "Designed MySQL database and Event-Driven app architecture to work with modern PHP and JS technologies.",
+            // "Implemented a tenant permission-based system supporting 5 distinct user roles and organization-specific access.",
+            // "Configured WebSocket's API to collect screen data and display analytics on user-facing dashboards.",
+            // "Automated data migration of 15,000 records to new database structure in under 5 min using custom scripts.",
+            // "Created an AI-driven LinkedIn post generator, integrating user profiles and files for personalized content.",
+            // "Built a search tool for 20,000 circuit design kits using PHP and SQL, achieving a 200ms average response time.",
+            // "Maintained and debugged email automation, research discovery, and scheduling apps, solving 10+ client issues.",
+            // "Mentored and assisted new interns into the team workflow shortening the onboarding period.",
         ],
         hashtags: [
             "Laravel",
